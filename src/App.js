@@ -1,11 +1,11 @@
-import User from "./components/user";
+import DefaultHOC from "./HOC/Default.HOC";
+import Temp from "./components/temp";
 
 function App() {
   return (
-    <div>
-      <h1>HELLO Users</h1>
-      <User name="Dunia" description="This is awma from me." />
-    </div>
+    <>
+      <DefaultHOC path="/" exact component={Temp} />
+    </>
   );
 }
 
