@@ -1,5 +1,6 @@
 // components
 import EntertainmentCardSlider from "../components/EntertainmentCard/EntertainmentCard.component";
+import Premier from "../components/premier/premier.component";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
           The best of entertainment
         </h1>
         <EntertainmentCardSlider />
+        <Premier />
       </div>
     </>
   );
