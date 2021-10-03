@@ -1,9 +1,9 @@
-import NavBar from "../components/navbar/navbar.component";
+import MovieNavbar from "../components/navbar/movieNavbar.component";
 
 const movieLayout = (props) => {
   return (
     <>
-      <NavBar />
+      <MovieNavbar />
       {props.children}
     </>
   );
