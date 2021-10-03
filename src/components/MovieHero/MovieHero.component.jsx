@@ -25,7 +25,7 @@ const MovieHero = () => {
 
         <div
           className="relative hidden md:block lg:hidden w-full"
-          style={{ height: "calc(180vw)" }}
+          style={{ height: "calc(80vw)" }}
         >
           <div className="absolute z-20 bottom-4">
             <MovieInfo />
