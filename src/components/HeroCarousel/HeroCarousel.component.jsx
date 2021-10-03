@@ -8,7 +8,6 @@ const HeroCarousel = () => {
     arrow: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    dots: true,
     centerMode: true,
     centerPadding: "300px",
     slidesToShow: 1,
