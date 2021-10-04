@@ -14,6 +14,14 @@ import plays from "./pages/plays.page";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// axios
+import axios from "axios";
+
+// axios default settings
+axios.defaults.baseURL = "https://api.themoviedb.org/3";
+axios.defaults.params = {}; // first create an empty object for params and later add the params with key and value
+axios.defaults.params["api_key"] = process.env.REACT_APP_API_KEY; // here we create a param key: api_key with the value defined in env file
+
 function App() {
   return (
     <>
