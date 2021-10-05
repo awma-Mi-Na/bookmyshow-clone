@@ -73,7 +73,7 @@ const MovieHero = () => {
           <img
             src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
             alt="poster"
-            className="w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
       </div>
