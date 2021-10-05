@@ -58,7 +58,7 @@ const Movie = () => {
   const settings = {
     infinite: true,
     autoplay: false,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 2,
     responsive: [
       {
@@ -80,7 +80,7 @@ const Movie = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
