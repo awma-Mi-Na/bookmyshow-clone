@@ -1,4 +1,5 @@
-import { React, useState } from "react";
+import { useState } from "react";
+import React from "react";
 
 export const MovieContext = React.createContext();
 
@@ -10,12 +11,12 @@ const MovieProvider = ({ children }) => {
     backdrop_path: "",
     poster_path: "",
   });
-};
 
-return (
-  <MovieContext.Provider value={{ movie, setMovie }}>
-    {children}
-  </MovieContext.Provider>
-);
+  return (
+    <MovieContext.Provider value={{ movie, setMovie }}>
+      {children}
+    </MovieContext.Provider>
+  );
+};
 
 export default MovieProvider;
